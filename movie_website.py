@@ -1,6 +1,12 @@
+#This is the file that when run, builds the actual movie website
+
+#media is where the Movie class is defined
 import media
+
+#import the html and python functions needed to run program
 import fresh_tomatoes
 
+#Instantiate 6 movies
 toy_story = media.Movie("Toy Story", 
 			"A story of a boy and his toys that come to life",
 			"http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", 
@@ -38,6 +44,8 @@ crash = media.Movie("Crash",
 			"http://upload.wikimedia.org/wikipedia/en/d/d0/Crash_ver2.jpg", 
 			"https://www.youtube.com/watch?v=rVJRcEt4TMM")
 
+#Create an array of the Movie objects, and then 
 movies = [shawshank,beautiful,crash,sound_of_music,interstellar,avatar]
 
+#pass this array to the open_movies_page function
 fresh_tomatoes.open_movies_page(movies)

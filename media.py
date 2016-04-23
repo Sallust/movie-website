@@ -1,3 +1,6 @@
+#In this Python File we define the class Movie and its constructor
+# Each instance of the class movie will house movie data and will 
+# contain the method show_trailer
 import webbrowser
 
 class Movie():
