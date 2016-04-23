@@ -110,7 +110,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="fluid-container">
       {movie_tiles}
     </div>
   </body>
